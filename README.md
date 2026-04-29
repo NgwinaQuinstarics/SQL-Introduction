@@ -2,7 +2,7 @@
 
 This repository contains the SQL projects for the ALX Higher-Level Programming track. It covers fundamental and advanced SQL concepts, from basic data manipulation to complex relational database design and reporting.
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The project is organized into two main directories:
 
@@ -11,7 +11,7 @@ The project is organized into two main directories:
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 * **OS:** Ubuntu 20.04 LTS
 * **Database:** MySQL 8.0
@@ -20,7 +20,7 @@ The project is organized into two main directories:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Installation
 Ensure you have MySQL installed on your local machine:
@@ -32,7 +32,7 @@ To run any of the SQL scripts, use the following command structure:
 
 Bash
 cat <filename>.sql | sudo mysql -hlocalhost -uroot -p <database_name>
-📊 Summary of Tasks
+Summary of Tasks
 Exercise 1: SQL Introduction
 Tasks 0-16: Basic database listing, table creation, inserting values, and filtering data with WHERE and LIKE.
 
@@ -45,7 +45,7 @@ Joins: Mastery of INNER JOIN and LEFT JOIN to retrieve data across multiple tabl
 
 Aggregations: Using GROUP BY and SUM to calculate ratings for TV shows and genres.
 
-📋 Database Imports
+ Database Imports
 Some tasks require pre-populated databases. Use these commands to import the necessary data:
 
 TV Shows Database:
@@ -58,7 +58,7 @@ TV Shows Rate Database:
 Bash
 echo "CREATE DATABASE hbtn_0d_tvshows_rate;" | sudo mysql
 curl -s [https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows_rate.sql](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows_rate.sql) | sudo mysql hbtn_0d_tvshows_rate
-✍️ Author
+ Author
 Quinstarics - GitHub Profile
 
 
